@@ -41,7 +41,7 @@ img{
     text-decoration: none;
     color: black;
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 3rem;
 }
 
@@ -52,8 +52,7 @@ img{
 
     
 body{
-    font-family: 'Poppins', sans-serif;
-    color: yellow;
+    font-family: 'Rubik Mono One', sans-serif;    color: yellow;
 }
 
 .first_shoes{
@@ -87,13 +86,12 @@ body{
 
 
 .text h2{
-    font-weight: 900;
     color: yellow;
     text-transform: uppercase;
     text-align: center;
-    font-size:3rem;
+    font-size:2.5rem;
     letter-spacing: 5px;
-    width: 590px;
+    width: 750px;
     line-height: 2.5rem;
 
 }
