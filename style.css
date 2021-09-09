@@ -9,6 +9,48 @@ img{
         width: 100%;
     }
 
+
+
+
+.bookmarks{
+    position: fixed;
+    top:10px;
+    right: 0;
+    padding: 0;
+}
+
+.bookmarks > ul{
+    list-style: none;
+}
+
+.bookmarks > ul >li{
+    display: inline-block;
+    margin-right: 2rem;
+    background: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(119, 119, 119, 0.603);
+    
+}
+   
+
+
+.bookmarks > ul >li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+
+
+
+
+
+    
 body{
     font-family: 'Poppins', sans-serif;
     color: yellow;
@@ -32,13 +74,12 @@ body{
     position: relative;
     height: 100vh;
     width: 100%;
-    padding: 3rem;
 }
 
 
 .text{
     position: absolute;
-    top:88%;
+    top:85%;
     left: 50%;
     transform: translate(-50%,-50%);
    
@@ -53,6 +94,7 @@ body{
     font-size:3rem;
     letter-spacing: 5px;
     width: 590px;
+    line-height: 2.5rem;
 
 }
 
