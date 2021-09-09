@@ -11,12 +11,12 @@ img{
 
 
 
-
 .bookmarks{
     position: fixed;
-    top:10px;
+    top:30px;
     right: 0;
-    padding: 0;
+    padding:0;
+    z-index: 10;
 }
 
 .bookmarks > ul{
